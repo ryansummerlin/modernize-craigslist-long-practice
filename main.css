@@ -91,3 +91,46 @@ footer {
 #topban h2 {
   text-align: center;
 }
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding: 10px 0;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: '☮️';
+  padding-right: 8px;
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+.cal .past {
+  opacity: 0.5;
+}
+
+.cal .today a {
+  background-color: rgb(188, 12, 188);
+  color: white;
+}
+
+td a:hover, td:hover {
+  background-color: lavender;
+}
